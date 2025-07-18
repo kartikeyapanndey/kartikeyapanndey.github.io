@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
-.li
-{
-    display: inline-block;
-    margin:10px;
-}
-.flex{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap:wrap;
-    background-color:yellow;
-    height:300px;
-
-}
-.grid{
-    display:grid;
-}
-</style>
-<body>
-    <h1> css display</h1>
-    <br>
-    <h3>inline vs inline-block</h3>
-    <br>
-    <ol>
-        <li>home</li>
-        <li>service</li>
-        <li>project</li>
-        <li>about</li>
-    </ol>
-    <hr>
-    <h2>flex box</h2>
-    <div class="flex">
-        <div>child1</div>
-        <div>child2</div>
-        <div>child3</div>
-        <div>child4</div>
-        <div>child5</div>
-        <div>child6</div>
-        <div>child7</div>
-
+    <style>
+      h1,
+      h4 {
+        background-color: yellow;
+      }
+      .c1 {
+        background-color: pink;
+      }
+      .c2 {
+        color: blue;
+      }
+      #head {
+        background-color: orange;
+      }
+      .box{
+        border: 1px solid blue;
+        width: 300px;
+        padding: 30px;
+        margin:30px
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Introduction to CSS</h1>
+    <h2 class="c1 c2">Basic Concepts</h2>
+    <h3 id="head">This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
+      accusamus.
     </div>
-</body>
+    <hr />
+    <h2>Box Model</h2>
+    <div class="box">Hello World</div>
+     <div class="box">Good Afternoon</div>
+  </body>
 </html>

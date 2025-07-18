@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>responsive design</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        Reprehenderit amet dicta quasi quo et quod laboriosam doloremque cum dignissimos 
-        a dolores assumenda, quam ea quae, non vel, velit at ipsum.</p>
-</body>
+<html>
+  <head>
+    <style>
+      @media screen and (min-width: 300px) {
+        h1 {
+          font-size: 20px;
+        }
+      }
+      @media screen and (min-width: 600px) {
+        h1 {
+          font-size: 50px;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        h1 {
+          font-size: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Responsive Design 
+    </h1>
+    <p>Toggle the width of the browser window and you will
+      observe the change in the font size of Heading</p>
+  </body>
 </html>
